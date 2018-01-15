@@ -1,0 +1,93 @@
+Using CATALINA_BASE:   /goormService/tomcat7
+Using CATALINA_HOME:   /goormService/tomcat7
+Using CATALINA_TMPDIR: /goormService/tomcat7/temp
+Using JRE_HOME:        /usr/lib/jvm/java-8-openjdk-amd64
+Using CLASSPATH:       /goormService/tomcat7/bin/bootstrap.jar:/goormService/tomcat7/bin/tomcat-juli.jar
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server version:        Apache Tomcat/7.0.77
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server built:          Mar 28 2017 16:01:48 UTC
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server number:         7.0.77.0
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Name:               Linux
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Version:            4.4.0-104-generic
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Architecture:          amd64
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Version:           1.8.0_111-8u111-b14-3~14.04.1-b14
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Vendor:            Oracle Corporation
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_BASE:         /goormService/tomcat7
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_HOME:         /goormService/tomcat7
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.config.file=/goormService/tomcat7/conf/logging.properties
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.endorsed.dirs=/goormService/tomcat7/endorsed
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.base=/goormService/tomcat7
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.home=/goormService/tomcat7
+1월 15, 2018 1:04:34 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.io.tmpdir=/goormService/tomcat7/temp
+1월 15, 2018 1:04:34 오후 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+1월 15, 2018 1:04:35 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8080"]
+1월 15, 2018 1:04:35 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-bio-8009"]
+1월 15, 2018 1:04:35 오후 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 4964 ms
+1월 15, 2018 1:04:35 오후 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+1월 15, 2018 1:04:35 오후 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.77
+1월 15, 2018 1:04:35 오후 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deploying web application archive /goormService/tomcat7/webapps/springex.war
+1월 15, 2018 1:04:45 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 15, 2018 1:04:45 오후 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [101] milliseconds.
+INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization started
+INFO : org.springframework.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Mon Jan 15 13:04:47 UTC 2018]; root of context hierarchy
+INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@66e33c77: defining beans [/home,viewResolver]; root of factory hierarchy
+INFO : org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Mapped URL path [/home] onto handler '/home'
+INFO : org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'spring': initialization completed in 2912 ms
+1월 15, 2018 1:04:50 오후 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deployment of web application archive /goormService/tomcat7/webapps/springex.war has finished in 14,907 ms
+1월 15, 2018 1:04:50 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/host-manager
+1월 15, 2018 1:04:51 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 384 ms
+1월 15, 2018 1:04:51 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/examples
+1월 15, 2018 1:04:53 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 1,814 ms
+1월 15, 2018 1:04:53 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/ROOT
+1월 15, 2018 1:04:53 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 685 ms
+1월 15, 2018 1:04:53 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/docs
+1월 15, 2018 1:04:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 322 ms
+1월 15, 2018 1:04:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/manager
+1월 15, 2018 1:04:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 474 ms
+1월 15, 2018 1:04:54 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8080"]
+1월 15, 2018 1:04:55 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-bio-8009"]
+1월 15, 2018 1:04:55 오후 org.apache.catalina.startup.Catalina start
+정보: Server startup in 20310 ms
